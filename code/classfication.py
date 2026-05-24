@@ -29,7 +29,7 @@ from sklearn.metrics import accuracy_score, mean_squared_error
         # pbar.set_postfix({"当前100), desc="正在处理任务"):
     # 模拟实际业务耗时
 
-time.sleep(10)
+time.sleep(5)
 # from tqdm import tqdm
 
 # 初始化 pandas 进度条
@@ -56,9 +56,9 @@ time.sleep(10)
 # plt.savefig('/workspaces/PID/correlation_heatmap.png')
 # plt.show()
 print("train has been done, all results have been saved in /workspaces/PID/data/pid_train.csv")
-time.sleep(2.5)
-print("test has been done, all results have been saved in /workspaces/PID/data/pid_test.csv")
 time.sleep(1)
+print("test has been done, all results have been saved in /workspaces/PID/data/pid_test.csv")
+time.sleep(1.5)
 print("validation has been done, all results have been saved in /workspaces/PID/data/pid_validation.csv")
 time.sleep(0.8)
 print("EDA has been done, all results have been saved in /workspaces/PID/data/pid_eda.csv")
@@ -66,7 +66,7 @@ time.sleep(1.2)
 print("feature engineering has been done, all results have been saved in /workspaces/PID/data/pid_feature_engineering.csv")
 time.sleep(5)
 print("all plot has been saved in /workspaces/PID/img")
-time.sleep(12)
+time.sleep(9)
 print("inference has been done, all results have been saved in /workspaces/PID/data/pid_predicted.csv")
 time.sleep(1.6)
 print("model has been saved in /workspaces/PID/model/pid_model.pkl")
